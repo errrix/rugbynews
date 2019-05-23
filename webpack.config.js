@@ -25,7 +25,7 @@ module.exports = (env, options) => {
             historyApiFallback: {
                 disableDotRule: true
             },
-            host: "api.localhost",
+            // host: "api.localhost",
             port: 4200
 
 
