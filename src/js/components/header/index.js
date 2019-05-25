@@ -3,6 +3,10 @@ import {Link, Redirect} from 'react-router-dom';
 
 class Header extends React.Component {
 
+    toggleMobMenu() {
+        document.querySelector('.navigation-side-mobile').classList.toggle('active-nav-mobile');
+    }
+
     render() {
         return (
             <div>
@@ -75,7 +79,7 @@ class Header extends React.Component {
                     <div className="header-device">
                         <div className="container">
                             <div className="header-device-wrapper">
-                                <div className="header__navToggle">
+                                <div className="header__navToggle" onClick={this.toggleMobMenu}>
                                     <span/>
                                     <span/>
                                     <span/>
@@ -90,10 +94,10 @@ class Header extends React.Component {
                                         <img src="img/search-icon.png" alt="search"/>
                                     </Link>
                                 </div>
-                                <div className="navigation-side-mobile active-nav-mobile">
+                                <div className="navigation-side-mobile">
                                     <ul className="header-nav-menu">
-                                        <li className="submenu-hover">
-                                            <Link to='/'>NEWS</Link>
+                                        <li className="submenu-hover">NEWS
+                                            {/*<Link to='/'>NEWS</Link>*/}
                                             <ul className="submenu-list">
                                                 <li>
                                                     <Link to='/'>All News</Link>
