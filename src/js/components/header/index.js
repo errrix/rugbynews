@@ -62,7 +62,7 @@ class Header extends React.Component {
                                 <div className="header-search-login-section">
                                     <Link to='/' className="header-search-link"><img src="img/search-icon.png" alt="search"/></Link>
                                     <button>
-                                        Reg /<span>LogIn</span><img src="img/acc-user.png" alt="user"/>
+                                        Reg /&nbsp;<span>LogIn</span><img src="img/acc-user.png" alt="user"/>
                                     </button>
                                 </div>
                             </div>

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,600&subset=cyrillic-ext');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Source+Sans+Pro:400,600&display=swap&subset=cyrillic');
 
 $mainfont: 'Open Sans', sans-serif;
 $secondfont: 'Source Sans Pro', sans-serif;
@@ -7,14 +6,38 @@ $secondfont: 'Source Sans Pro', sans-serif;
 //BG
 $bg-main-color: #37474f;
 $bg-second-color: #263238;
-$bg-third-color: #ffffff;
+$bg-white-color: #ffffff;
+$bg-black-color: #000000;
+$bg-lighter-color: #f5f5f5;
+$bg-four-color: #e0e0e0;
+$bg-five-color: #d1cfd3;
+$bg-seven-color: #0091ea;
+$bg-eight-color: #bdbdbd;
+$bg-nine-color: #0191ce;
+$bg-ten-color: #00c853;
+$bg-eleven-color: #b1b3b5;
+$bg-twelve-color: #0d47a1;
+$bg-thirteen-color: #b71c1c;
+$bg-fourteen-color: #757575;
+$bg-fifteen-color: #596f79;
 
 //Fonts-color
 $main-text-color: #000000;
-$main-light-color: #37474f;
-$main-lighter-text-color: #f5f5f5;
 $main-white-text-color: #ffffff;
+$main-light-text-color: #37474f;
+$main-lighter-text-color: #f5f5f5;
+$main-four-text-color: #e0e0e0;
+$main-five-text-color: #d1cfd3;
+$main-six-text-color: #263238;
+$main-seven-text-color: #0091ea;
+$main-eight-text-color: #bdbdbd;
+$main-nine-text-color: #0191ce;
+$main-ten-text-color: #00c853;
+$main-eleven-text-color: #b1b3b5;
+$main-twelve-text-color: #0d47a1;
+$main-thirteen-text-color: #b71c1c;
+$main-fourteen-text-color: #757575;
+$main-fifteen-text-color: #596f79;
 
 //Screen widths
-$tabletWidth: 1199px;
-$mobileWidth: 979px;
+$deviceWidth: 1169px;
