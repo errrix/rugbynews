@@ -7,6 +7,49 @@
     height: 30px;
     width: 100%;
     background-color: $bg-main-color;
+    .header-top-section-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 30px;
+
+      .header-top-section__language-feeds {
+        display: flex;
+        align-items: center;
+        select {
+          background-color: transparent;
+          border: none;
+          outline: none;
+          width: 120px;
+          color: $main-white-text-color;
+          font-size: 12px;
+          font-weight: 400;
+          option {
+            background-color: $bg-main-color;
+          }
+        }
+        img {
+          height: 8px;
+          margin-left: 11px;
+        }
+      }
+
+      .header-top-section__add-your-feeds {
+        display: flex;
+        button {
+          color: $main-white-text-color;
+          font-family: $mainfont;
+          font-size: 12px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          img {
+            height: 16px;
+            padding-left: 9px;
+          }
+        }
+      }
+    }
   }
 
   .header-bottom-section {
@@ -124,12 +167,15 @@
           font-size: 12px;
           color: $main-eleven-text-color;
           cursor: pointer;
-          width: 105px;
+          width: 107px;
 
           span {
             color: $main-white-text-color;
             font-weight: 600;
             margin-right: 10px;
+          }
+          img {
+            height: 15px;
           }
         }
       }
@@ -204,7 +250,7 @@
           display: block;
           position: absolute;
           width: 100%;
-          top: 95px;
+          top: 94px;
           left: 0;
           height: 0;
           overflow: hidden;
@@ -235,6 +281,36 @@
                 font-weight: 700;
                 text-transform: uppercase;
               }
+              label {
+                select {
+                  background-color: transparent;
+                  border: none;
+                  outline: none;
+                  width: auto;
+                  color: $main-white-text-color;
+                  font-size: 28px;
+                  font-weight: 400;
+                  option {
+                    background-color: $bg-second-color;
+                  }
+                }
+                img {
+                  height: 23px;
+                  margin-left: 30px;
+                }
+              }
+              button {
+                color: $main-white-text-color;
+                font-family: $mainfont;
+                font-size: 28px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                img {
+                  height: 35px;
+                  padding-left: 30px;
+                }
+              }
             }
             .submenu-hover {
               &:after {
@@ -251,6 +327,7 @@
               }
               .submenu-list {
                 display: none;
+                padding: 0 25px;
                 background-color: $bg-fifteen-color;
                 position: absolute;
                 top: 0;
@@ -258,7 +335,7 @@
                 width: 100%;
                 z-index: 9;
                 & > li {
-                  padding: 25px;
+                  padding: 25px 0;
                   border-bottom: 1px solid $bg-nine-color;
                   color: $main-lighter-text-color;
                   font-family: $mainfont;

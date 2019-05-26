@@ -14,7 +14,21 @@ class Header extends React.Component {
                     <div className="header-desktop">
                         <div className="header-top-section">
                             <div className="container">
-
+                                <div className="header-top-section-wrapper">
+                                    <div className="header-top-section__language-feeds">
+                                        <label htmlFor="" className="label__language-feeds">
+                                            <select name="" id="">
+                                                <option value="" selected disabled hidden>Language Feeds</option>
+                                                <option value="">English</option>
+                                                <option value="">Русский</option>
+                                            </select>
+                                            <img src="img/english_flag.png" className="country-image" alt="country logo"/>
+                                        </label>
+                                    </div>
+                                    <div className="header-top-section__add-your-feeds">
+                                        <button>Add Your Feeds <img src="img/add.png" alt="Add Feeds"/></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="header-bottom-section">
@@ -136,6 +150,19 @@ class Header extends React.Component {
                                         </li>
                                         <li>
                                             <Link to='/'>PARTNERSHIP</Link>
+                                        </li>
+                                        <li>
+                                            <label htmlFor="" className="label__language-feeds">
+                                                <select name="" id="">
+                                                    <option value="" selected disabled hidden>Language Feeds</option>
+                                                    <option value="">English</option>
+                                                    <option value="">Русский</option>
+                                                </select>
+                                                <img src="img/english_flag.png" className="country-image" alt="country logo"/>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <button>Add Your Feeds <img src="img/add.png" alt="Add Feeds"/></button>
                                         </li>
                                     </ul>
                                 </div>
