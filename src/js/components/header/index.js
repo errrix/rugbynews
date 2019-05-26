@@ -6,6 +6,9 @@ class Header extends React.Component {
     toggleMobMenu() {
         document.querySelector('.navigation-side-mobile').classList.toggle('active-nav-mobile');
     }
+    toggleCheck() {
+        document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
+    }
 
     render() {
         return (
@@ -85,6 +88,16 @@ class Header extends React.Component {
                                         <button>
                                             Reg /&nbsp;<span>LogIn</span><img src="img/acc-user.png" alt="user"/>
                                         </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="header-time-line-section">
+                            <div className="container">
+                                <div className="header-time-line-section-wrapper">
+                                    <p>Time line</p>
+                                    <div className="header-time-line-section__check"  onClick={this.toggleCheck}>
+                                        <div className=""></div>
                                     </div>
                                 </div>
                             </div>
