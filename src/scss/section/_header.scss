@@ -194,8 +194,8 @@
       margin-right: 11px;
     }
     .header-time-line-section__check {
-      width: 37px;
-      height: 16px;
+      width: 39px;
+      height: 17px;
       border-radius: 8px;
       border: 1px solid $bg-eight-color;
       background-color: $bg-white-color;
@@ -212,7 +212,7 @@
         background-color: $bg-seven-color;
       }
       .checked {
-        left: 22px;
+        left: 23px;
       }
     }
   }
@@ -315,6 +315,47 @@
                 font-size: 28px;
                 font-weight: 700;
                 text-transform: uppercase;
+              }
+              &.add-your-feeds-mob {
+                border-bottom: none;
+              }
+              &.header-time-line-section-wrapper {
+                justify-content: flex-start;
+                margin: 0;
+                border-bottom: none;
+                .header-time-line-section__check {
+                  width: 91px;
+                  height: 34px;
+                  border: 1px solid #bdbdbd;
+                  border-radius: 16px;
+                  background-color: #ffffff;
+                  div {
+                    width: 32px;
+                    height: 32px;
+                  }
+                  .checked-mob-line {
+                    left: 57px;
+                  }
+                }
+
+                p {
+                  color: $main-lighter-text-color;
+                  font-family: $mainfont;
+                  font-size: 28px;
+                  font-weight: 700;
+                  text-transform: uppercase;
+                  margin-right: 19px;
+                }
+              }
+              &.header-search-login-section {
+                border-bottom: none;
+                button {
+                  width: 247px;
+                  height: 74px;
+                  border-radius: 2px;
+                  border: 1px solid #b1b3b5;
+                  justify-content: center;
+                }
               }
               label {
                 select {

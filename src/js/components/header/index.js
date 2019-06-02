@@ -9,6 +9,9 @@ class Header extends React.Component {
     toggleCheck() {
         document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
     }
+    toggleCheckMob() {
+        document.querySelector('.header-time-line-section__check.mob-check div').classList.toggle("checked-mob-line");
+    }
 
     render() {
         return (
@@ -174,8 +177,19 @@ class Header extends React.Component {
                                                 <img src="img/english_flag.png" className="country-image" alt="country logo"/>
                                             </label>
                                         </li>
-                                        <li>
+                                        <li className="add-your-feeds-mob">
                                             <button>Add Your Feeds <img src="img/add.png" alt="Add Feeds"/></button>
+                                        </li>
+                                        <li className="header-time-line-section-wrapper" onClick={this.toggleCheckMob}>
+                                            <p>Time line</p>
+                                            <div className="header-time-line-section__check mob-check">
+                                                <div className=""></div>
+                                            </div>
+                                        </li>
+                                        <li className="header-search-login-section">
+                                            <button>
+                                                <span>LogIn</span><img src="img/acc-user.png" alt="user"/>
+                                            </button>
                                         </li>
                                     </ul>
                                 </div>
