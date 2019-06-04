@@ -2,12 +2,9 @@
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-}
-
-@media only screen and (max-width: $deviceWidth) {
-  .container {
-    max-width: none;
-    padding: 0 20px;
+  @media only screen and (max-width: $deviceWidth) {
+      max-width: none;
+      padding: 0 20px;
   }
 }
 
@@ -17,4 +14,17 @@ body {
   font-size: 16px;
   line-height: 1.3;
   min-width: 320px;
+}
+
+.menu-opened {
+  overflow: inherit;
+  position: inherit;
+  height: auto;
+  width: 100%;
+  @media only screen and (max-width: $deviceWidth) {
+      overflow: hidden;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+  }
 }

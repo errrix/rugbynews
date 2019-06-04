@@ -5,6 +5,7 @@ class Header extends React.Component {
 
     toggleMobMenu() {
         document.querySelector('.navigation-side-mobile').classList.toggle('active-nav-mobile');
+        document.querySelector('#app').classList.toggle('menu-opened');
     }
     toggleCheck() {
         document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
@@ -127,7 +128,6 @@ class Header extends React.Component {
                                 <div className="navigation-side-mobile">
                                     <ul className="header-nav-menu">
                                         <li className="submenu-hover">NEWS
-                                            {/*<Link to='/'>NEWS</Link>*/}
                                             <ul className="submenu-list">
                                                 <li>
                                                     <Link to='/'>All News</Link>
@@ -180,9 +180,9 @@ class Header extends React.Component {
                                         <li className="add-your-feeds-mob">
                                             <button>Add Your Feeds <img src="img/add.png" alt="Add Feeds"/></button>
                                         </li>
-                                        <li className="header-time-line-section-wrapper" onClick={this.toggleCheckMob}>
+                                        <li className="header-time-line-section-wrapper">
                                             <p>Time line</p>
-                                            <div className="header-time-line-section__check mob-check">
+                                            <div className="header-time-line-section__check mob-check" onClick={this.toggleCheckMob}>
                                                 <div className=""></div>
                                             </div>
                                         </li>
