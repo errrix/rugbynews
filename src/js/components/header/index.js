@@ -6,6 +6,7 @@ class Header extends React.Component {
     toggleMobMenu() {
         document.querySelector('.navigation-side-mobile').classList.toggle('active-nav-mobile');
         document.querySelector('#app').classList.toggle('menu-opened');
+        document.querySelector('.header__navToggle').classList.toggle('navActive');
     }
     toggleCheck() {
         document.querySelector('.header-time-line-section__check div').classList.toggle('checked');
@@ -111,6 +112,7 @@ class Header extends React.Component {
                         <div className="container">
                             <div className="header-device-wrapper">
                                 <div className="header__navToggle" onClick={this.toggleMobMenu}>
+                                    <span/>
                                     <span/>
                                     <span/>
                                     <span/>
