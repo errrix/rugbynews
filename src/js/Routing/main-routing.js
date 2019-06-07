@@ -10,7 +10,7 @@ import Homepage from "../pages/homepage/"
 import pageNotFound from "../pages/404/"
 import Header from "../components/header/"
 import Footer from "../components/footer/"
-import TestScroll from "../components/testScroll/"
+import NewsmakersBlock from "../components/newsmakersBlock/"
 
 
 class MainRouting extends React.Component {

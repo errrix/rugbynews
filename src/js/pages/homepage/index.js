@@ -1,5 +1,5 @@
 import React from "react";
-import TestScroll from "../../components/testScroll/"
+import NewsmakersBlock from "../../components/newsmakersBlock/"
 
 class Homepage extends React.Component {
 
@@ -10,8 +10,18 @@ class Homepage extends React.Component {
     render() {
         return (
             <div>
-               <h1>This is homepage</h1>
-                <TestScroll/>
+                <div className="hp-main-block">
+                    <div className="container">
+                        <div className="main-section-wrapper">
+                            <div className="news-section">
+                                <NewsmakersBlock/>
+                            </div>
+                            <div className="table-right-section">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
