@@ -152,3 +152,53 @@
 		}
 	}
 }
+
+@media only screen and (max-width: $deviceWidth) {
+	.newsmakers-section {
+		h2 {
+
+		}
+
+		.short-newsmakers-block {
+			height: auto;
+			flex-direction: column;
+			justify-content: center;
+
+			& > img {
+				width: 100%;
+				height: auto;
+			}
+
+			.list-news {
+				width: 100%;
+				.select-news {
+
+					a {
+
+					}
+
+					p {
+
+						img {
+
+						}
+
+						span {
+
+						}
+					}
+
+					&:last-child {
+
+					}
+
+					&:hover {
+						&:before {
+
+						}
+					}
+				}
+			}
+		}
+	}
+}

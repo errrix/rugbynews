@@ -231,6 +231,9 @@
       width: 100%;
       height: 95px;
       background-color: $bg-second-color;
+      .container {
+        max-width: none;
+      }
       .header-device-wrapper {
         display: flex;
         justify-content: space-between;
