@@ -2,13 +2,13 @@ import React from "react";
 import Scrollbar from "react-scrollbars-custom";
 import {Link} from "react-router-dom";
 
-class NewsmakersBlock extends React.Component {
+class VideoBlock extends React.Component {
 
     render() {
         return (
             <div>
-                <div className="newsmakers-section">
-                    <h2>Newsmakers</h2>
+                <div className="newsmakers-section newsmakers-video-section">
+                    <h2>Videos</h2>
                     <div className="short-newsmakers-block">
                         <img src="img/JMP_Bristol_Rugby_v_Bedford_Blues_RT0307.jpg" alt="news photo"/>
                         <div className="list-news">
@@ -216,4 +216,4 @@ class NewsmakersBlock extends React.Component {
 };
 
 
-export default NewsmakersBlock;
+export default VideoBlock;

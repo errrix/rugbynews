@@ -4,5 +4,9 @@
 	.main-section-wrapper {
 		display: flex;
 		justify-content: space-between;
+
+		.table-right-section {
+			margin-top: 25px;
+		}
 	}
 }

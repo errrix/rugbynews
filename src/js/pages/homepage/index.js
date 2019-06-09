@@ -1,5 +1,7 @@
 import React from "react";
-import NewsmakersBlock from "../../components/newsmakersBlock/"
+import NewsmakersBlock from "../../components/newsmakersBlock/";
+import VideoBlock from "../../components/videoBlock";
+import TopRatingNews from "../../components/topRatingNews";
 
 class Homepage extends React.Component {
 
@@ -15,9 +17,10 @@ class Homepage extends React.Component {
                         <div className="main-section-wrapper">
                             <div className="news-section">
                                 <NewsmakersBlock/>
+                                <VideoBlock/>
                             </div>
                             <div className="table-right-section">
-
+                                <TopRatingNews/>
                             </div>
                         </div>
                     </div>

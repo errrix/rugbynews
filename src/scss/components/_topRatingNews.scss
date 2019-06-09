@@ -1,0 +1,22 @@
+.top-rating-news-block {
+	width: 277px;
+	.top-rating-news-block__title {
+		background-color: $bg-second-color;
+		padding: 8px 0;
+		h4 {
+			color: $main-white-text-color;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+	.top-rating-news-block__list {
+		padding: 0 15px;
+		border: 1px solid $bg-four-color;
+		background-color: $bg-lighter-color;
+		.top-rating-news-block__list__item {
+			border-bottom: 1px solid $bg-four-color;
+		}
+	}
+}
